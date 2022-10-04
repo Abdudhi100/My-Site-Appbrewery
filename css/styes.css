@@ -1,0 +1,112 @@
+/* font-family: 'Lobster Two', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Dancing Script', cursive; */
+
+/*******************TAG SELECTORS**********************************/
+body {
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+p {
+  line-height: 2;
+}
+a {
+  color: #11999E;
+}
+hr {
+  width: 5%;
+  border-style: dotted none none none;
+  border-top: 10px dotted #EAF6F6;
+  margin: 50px auto;
+}
+/*******************CLASS SELECTORS**********************************/
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 50px;
+}
+.top-cloud {
+  position: relative;
+  left: 400px;
+  bottom: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+}
+.profile {
+  padding-bottom: 20px;
+}
+.profile p {
+  color: #40514E;
+}
+.middle-container {
+margin: 50px;
+}
+.skill-row {
+
+  width: 50%;
+  margin: 50px auto 50px;
+  text-align: left;
+  padding: 20px;
+}
+.skills-img1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skills-img2 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.contact-me a {
+  text-decoration: none;
+  background-color: #66BFBF;
+  color: white;
+  padding: 10px;
+  border-radius: 8;
+}
+.contact-me-p {
+  width: 30%;
+  margin: 50px auto 50px;
+}
+.bottom-container {
+background-color: #66BFBF;
+padding: 60px;
+}
+.bottom-container p {
+  padding: 30px;
+  color: #EAF6F6;
+}
+.flex-container {
+display: flex;
+justify-content: center;
+}
+.flex-container a {
+  padding-right: 30px;
+  text-decoration: none;
+}
+.pro {
+  text-decoration: underline;
+}
